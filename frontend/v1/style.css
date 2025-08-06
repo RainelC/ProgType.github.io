@@ -1,0 +1,219 @@
+body{
+  background-color: #000000;
+  margin: 0%;
+  padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Estilos generales para pantallas más grandes */
+.overlay {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+#hh {
+  font-size: 3rem;
+}
+
+/* Media Query para dispositivos con un ancho máximo de 768px (pantallas móviles) */
+@media (max-width: 768px) {
+  .overlay {
+    font-size: 44px; 
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #hh {
+    font-size: 2rem; /* Ajusta el tamaño del encabezado h1 para móviles */
+    position: relative;
+    left: -18px;
+  }
+}
+
+.logo {
+  background: left / cover url('/media/examples/puppy-header-logo.jpg');
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  font:
+    bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+    fantasy;
+  color:  #ffffff;
+  text-shadow: #000000 2px 2px 0.2rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+  }
+  
+header{
+    background-color: #F07EF2;
+}
+
+main{
+  background-color: #929EA6;
+}
+
+.material-symbols-outlined{
+  right: 60px;
+  position: absolute;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+#hh{
+  -webkit-text-stroke: 0.5px #000000;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+
+address, #email{
+  display: inline;
+}
+
+#text-fir{
+  text-align: center;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+}
+
+video{
+  width: 50%;
+  margin: 0%;
+  padding: 0;
+  object-fit: cover
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.video-container {
+  position: relative;
+  height: 70px;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.catalogo-container{
+  width: 100%;
+  background-color: #929EA6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.keyboards{
+  border: solid 1px black;
+  text-align: center;
+  line-height: 60px;
+  margin: 10px;
+  transition: height 0.3s;
+  height: 313px;
+  position: relative;
+}
+
+.keyboards:hover{
+  height: 380px;
+}
+
+.keyboards img{
+  width: 375px;
+  height: 200px;
+}
+
+
+.keycaps{
+  border: solid 1px black;
+  text-align: center;
+  line-height: 60px;
+  margin: 10px;
+  transition: height 0.3s;
+  height: 313px;
+  position: relative;
+}
+
+.keycaps:hover{
+  height: 380px;
+}
+
+.keycaps img{
+  width: 375px;
+  height: 200px;
+}
+
+.hidden-button {
+  display: non;
+  position: absolute;
+  bottom: 20px; 
+  transition: opacity 0.3s;
+  opacity: 0; 
+}
+
+
+.keyboards:hover .hidden-button {
+  display: block; 
+  opacity: 1;
+}
+
+.keycaps:hover .hidden-button {
+  display: block; 
+  opacity: 1;
+}
+
+.button-img {
+  cursor: pointer;
+}
+
+.catalogo-container p{
+  margin: -15px;
+  
+}
+
+#amb{
+  height: 75px;
+  width: 150px;
+  top: 35px;
+  left: 110px;
+  position: relative;
+  
+}
